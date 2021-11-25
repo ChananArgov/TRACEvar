@@ -1,6 +1,9 @@
 # TRACEvar
 TRACEvar is a pathogenic variant prioritization tool, based on tissue-specific ML models.
 
+# TRACEvar Webtoll
+TRACEvar webtoll allows you to upload your variant file in vcf format and get TRACEvar pathogenicity score for each variant.
+
 # Dataset
 
 TRACEvar features dataset could be find in XXXXXX.
