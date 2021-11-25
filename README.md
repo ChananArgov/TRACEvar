@@ -1,9 +1,21 @@
 # TRACEvar
 TRACEvar is a pathogenic variant prioritization tool, based on tissue-specific ML models.
 
-## Dataset
+# Dataset
 
 TRACEvar features dataset could be find in XXXXXX.
+
+# Download
+
+To use TRACEvar on your devise you first need to download all the project files to your working directory.
+The features dataset file need to be placed in the 'Data' folder.
+
+# Usage
+
+First, to create TRACEvar tissue-specific Random-Forest (RF) models, you need to run the Main.py script in the 'Code' folder. This script will create 5 files for each tissue model in the 'Output' folder, 3 python [pickel] (https://docs.python.org/3/library/pickle.html) (pkl) including the trained model,  a dictionary with all the model input features, [shap](https://shap.readthedocs.io/en/latest/index.html) explainer, csv file with shap feature importance mean values and shap summery plot in pdf format showing the top 20 features for each RF model.
+
+
+# Additional files
 
 In the Code folder you can find the following py files:
 
