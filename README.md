@@ -22,12 +22,15 @@ TRACEvar runing on python 3.8 and requir the pakages: sklearn, pandas, ast, matp
 TRACEvar scripts and dataset are avalable for genome verssion hg37, it will be avalable in the future for hg38.
 To run TRACEvar on your own dataset you can run TRACEvar webtool(see above), alternatively you will need to get the CADD features for your variants and TRACE features of the relevant genes, and to combine tham. To this end, first upload your dataset in vcf format to [CADD](https://cadd.gs.washington.edu/score) hg37 V1.6, choose include annotations bottom to get all CADD features. Second download TRACE features from YYYYY, and lastly combine the feature datasets on the ensamble gene id column. Now you can run TRACEvar following the instruction in the 'usage' section.
 
+# Cite
+Please cite  TRACEvar: Prioritizing and interpreting pathogenic variants that underlie hereditary diseases in tissue contexts. Argov et al, submited. 
+
 # Additional files
 
-In the Code folder you can find the following py files:
+In the Code folder you can find the following py scripts:
 
-1. Find_Best_ML_Paraneters.py - This file taking TRACEvar dataset and finding the best-parameter (BP) for tuning eight ML methods for tissue-specific variant prioritizing.
-2. Compare_ML_Methods.py - Based on TRACEvar dataset and the BP from 1, this script comparing between the eight ML methods, recording the precision-recall AUC, ROC-AUC, training and predicting time. 
-3. Create_TRACEvar_Models_Explainers.py - This file taking TRACEvar dataset + BP, creating 17 tissue-specific RF models and SHAP explainers this script also contains the feature importance (FI) calculation for each of the models.
-4. Feature_Importance_Analysis.py - Taking FI across the 17 models and analysing it. 
-5. Prioritize_Cabdidate_Variants_And_Interpetate.py - Prioritizing candidate variants based on the tissue-specific PF models, and explains variant prediction based on SHAP explainer. 
+1. Main.py - This file creating the randome-forest tissue-specific TRACEvar models, shap explainers and feature importance shap values.
+2. ML_Models_BP_Comparision.py - This script comparing between the eight ML methods, recording the precision-recall AUC, ROC-AUC, training and predicting time. 
+3. Feature_Gruops_Tissue_Specific.py - Taking feature importance shap values across the 17 models, finding the most contributing feature groups (see article). 
+4. Prioritize_Candidate_Variants.py.py - Prioritizing candidate variants based on TRACEvar tissue-specific models.
+5. Interpretation_for_Specific_Variant.py -  Explains variant prediction based on SHAP explainer. 
