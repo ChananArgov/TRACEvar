@@ -17,6 +17,10 @@ The features dataset file needs to be placed in the 'Data' folder.
 
 To create TRACEvar tissue-specific Random-Forest (RF) models, you need to run the Main.py script in the 'Code' folder. This script will create 5 files for each tissue model in the 'Output' folder, 3 python [pickel](https://docs.python.org/3/library/pickle.html) (pkl) including the trained model, a dictionary with all the model input features, [shap](https://shap.readthedocs.io/en/latest/index.html) explainer, csv file with shap feature importance mean values and shap summery plot in pdf format showing the top 20 features for each RF model.
 
+# Dependencies
+TRACEvar runing on python 3.8 and requir the pakages: sklearn, pandas, ast, matplotlib, os, numpy, shap, pickle. Use pip for pakages installation.
+TRACEvar scripts and dataset are avalable for genome verssion hg37, it will be avalable in the future for hg38.
+To run TRACEvar on your own dataset you can run TRACEvar webtool(see above), alternatively you will need to get the CADD features for your variants and TRACE features of the relevant genes, and to combine tham. To this end, first upload your dataset in vcf format to [CADD](https://cadd.gs.washington.edu/score) hg37 V1.6, choose include annotations bottom to get all CADD features. Second download TRACE features from YYYYY, and lastly combine the feature datasets on the ensamble gene id column. Now you can run TRACEvar following the instruction in the 'usage' section.
 
 # Additional files
 
