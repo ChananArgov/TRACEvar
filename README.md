@@ -24,7 +24,7 @@ TRACEvar scripts and dataset are available for human genome version hg37.
 1. Create models as described in 'TRACEvar usage for model construction' above.
 2. Given a list of variants in a VCF format, obtain their CADD features as follows: (i) upload the VCF file to [CADD](https://cadd.gs.washington.edu/score) hg37 V1.6; (ii) select 'include annotations' (appears at the bottom); (iii) obtain CADD features per variant.
 3. Combine CADD with tissue-specific features by gene id column. 
-4. Run TRACEvar. XXX
+4. Run TRACEvar.
 
 # Additional files
 The Code folder contains the following python scripts:
