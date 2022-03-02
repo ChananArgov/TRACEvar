@@ -8,7 +8,7 @@ The dataset contains TRACEvar features and variant labels per tissue, and can be
 To use TRACEvar on your device download all the project files and folders to your work directory.
 Place the dataset file in the 'Data' folder.
 
-# TRACEvar usage for model contruction
+# TRACEvar usage for model construction
 To create TRACEvar tissue-specific random forest models, run the Main.py script in the 'Code' folder. For each tissue model, the script will create 5 files in the 'Output' folder, as follows:
 1. a python [pickle](https://docs.python.org/3/library/pickle.html) (pkl) that include the trained model.
 2. a pkl file containing a dictionary of the model input features.
@@ -16,12 +16,12 @@ To create TRACEvar tissue-specific random forest models, run the Main.py script 
 4. a csv file containing the SHAP feature importance mean values.
 5. a pdf file containing the SHAP summary plot that shows the top 20 most important features of the RF model.
 
-# Dependencies for model contruction
+# Dependencies for model construction
 TRACEvar requires python 3.8 and the following packages: sklearn, pandas, ast, matplotlib, os, numpy, shap, pickle. Use pip for packages installation.
 TRACEvar scripts and dataset are available for human genome version hg37.
 
 # TRACEvar usage for variant prioritization
-1. Create models as described in 'TRACEvar usage for model contruction' above.
+1. Create models as described in 'TRACEvar usage for model construction' above.
 2. Given a list of variants in a VCF format, obtain their CADD features as follows: (i) upload the VCF file to [CADD](https://cadd.gs.washington.edu/score) hg37 V1.6; (ii) select 'include annotations' (appears at the bottom); (iii) obtain CADD features per variant.
 3. Combine CADD with tissue-specific features by gene id column. 
 4. Run TRACEvar. XXX
