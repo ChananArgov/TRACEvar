@@ -9,7 +9,7 @@ To use TRACEvar on your device download all the project files and folders to you
 Place the dataset file in the 'Data' folder.
 
 # TRACEvar usage for model construction
-To create TRACEvar tissue-specific random forest models, run the Main.py script in the 'Code' folder. For each tissue model, the script will create 5 files in the 'Output' folder, as follows:
+To create TRACEvar tissue-specific random forest models, run the Create_TRACEvar_Models_and_SHAP_Explainers.py script in the 'New Code' folder. For each tissue model, the script will create 5 files in the 'Output' folder, as follows:
 1. a python [pickle](https://docs.python.org/3/library/pickle.html) (pkl) that include the trained model.
 2. a pkl file containing a dictionary of the model input features.
 3. a pkl file containing the [SHAP](https://shap.readthedocs.io/en/latest/index.html) explainer.
@@ -18,21 +18,17 @@ To create TRACEvar tissue-specific random forest models, run the Main.py script 
 
 # Dependencies for model construction
 TRACEvar requires python 3.8 and the following packages: sklearn, pandas, ast, matplotlib, os, numpy, shap, pickle. Use pip for packages installation.
-TRACEvar scripts and dataset are available for human genome version hg37.
+TRACEvar scripts and dataset are available for human genome version hg37, hg38.
 
 # TRACEvar usage for variant prioritization
 1. Create models as described in 'TRACEvar usage for model construction' above.
-2. Given a list of variants in a VCF format, obtain their CADD features as follows: (i) upload the VCF file to [CADD](https://cadd.gs.washington.edu/score) hg37 V1.6; (ii) select 'include annotations' (appears at the bottom); (iii) obtain CADD features per variant.
-3. Combine CADD with tissue-specific features by gene id column. 
-4. Run TRACEvar.
+2. Given a list of variants in a VCF format, obtain their CADD features as follows: (i) upload the VCF file to [CADD](https://cadd.gs.washington.edu/score) hg37 V1.6 or hg38 V1.6; (ii) select 'include annotations' (appears at the bottom); (iii) obtain CADD features per variant.
+3. Run Prioritize_Variants_By_TRACEvar.py script (the input is detailed at the top of the script).
 
-# Additional files
-The Code folder contains the following python scripts:
-1. Main.py - script that creates the random forest tissue-specific TRACEvar models, shap explainers and feature importance shap values.
-2. ML_Models_BP_Comparision.py - script that comparing the performance of eight different ML methods per tissue. Performance is measured by auROC, auPRC, training time and prediction time. 
-3. Feature_Gruops_Tissue_Specific.py - script that uses SHAP feature importance values in 17 tissue models to calculate the contribution of each feature group (see article). 
-4. Prioritize_Candidate_Variants.py.py - script that prioritizes variants based on TRACEvar tissue-specific models.
-5. Interpretation_for_Specific_Variant.py - script that creates the SHAP decision plot for a specific variant. 
+# TRACEvar usage for variant interpretation
+In order to obtain an interpretation for a specific variant, you must first run the 'TRACEvar usage for variant prioritization' section.
+Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant variant index (the input is detailed at the top of the script).
+
 
 # Cite
 Please cite 'TRACEvar: Prioritizing and interpreting pathogenic variants that underlie hereditary diseases in tissue contexts. Argov et al, submitted.'
