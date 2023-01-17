@@ -30,6 +30,97 @@ TRACEvar scripts and dataset are available for human genome version hg37, hg38.
 In order to obtain an interpretation for a specific variant, you must first run the 'TRACEvar usage for variant prioritization' section.
 Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant variant index (the input is detailed at the top of the script).
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<h2>Analysis scripts</h2>
+
+<table>
+  <tr>
+    <th>Notebook name</th>
+    <th>Contant</th>
+    <th>Manuscript figures</th>
+  </tr>
+  <tr>
+    <td>One_Gene_Model_POC</td>
+    <td>POC examples ML</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>One_Gene_POC_Figs</td>
+    <td>POC plots</td>
+    <td>Fig. 2A-B</td>
+  </tr>
+  <tr>
+    <td>Compare_TRACEvar_to_Common_Scores</td>
+    <td>comparing TRACEvar performance to common genetic tools</td>
+    <td>Fig. 2C-D</td>
+  </tr>
+  <tr>
+    <td>Methods_Comparison_Analysis</td>
+    <td>Methods comparison analysis and plots</td>
+    <td>Fig 2. E-F</td>
+  </tr>
+   <tr>
+    <td>SHAP_Importance_Slim</td>
+    <td>Feature importance for each TRACEvar 17 model</td>
+    <td>Fig. 3A</td>
+  </tr>
+  <tr>
+    <td>Feature Importance Analysis</td>
+    <td>Feature importance analysis and plots</td>
+    <td>Fig. 3B-C</td>
+  </tr>
+  <tr>
+    <td>Transfear_Learning_hg37_Multiprossesing_Doc</td>
+    <td>Training and evaluating TRAVEvar multi-tissue model</td>
+  <tr>
+    <td>Analyze transfer learning results</td>
+    <td>Multi-tissue model performance</td>
+    <td>Fig. 4B</td>
+  </tr>
+   <tr>
+    <td>Transfer Learning Feature Importance</td>
+    <td>Multi-tissue model feature importance analysis</td>
+    <td>Fig. 4C</td>
+  </tr>
+  <tr>
+    <td>Patient Variants Prioritization</td>
+    <td>Patient variant prioritization and interpretation</td>
+    <td>Fig. 5B-D</td>
+  </tr>
+  <tr>
+    <td>Analyze Patients Rank</td>
+    <td>Statistics and comparision of TRACEvar patients variants prioritization results</td>
+    <td>Fig. 5A, Fig. S4</td>
+  </tr>
+    <td></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
 
 # Cite
 Please cite 'TRACEvar: Prioritizing and interpreting pathogenic variants that underlie hereditary diseases in tissue contexts. Argov et al, submitted.'
