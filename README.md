@@ -48,7 +48,7 @@ tr:nth-child(even) {
 </head>
 <body>
 
-<h2>HTML Table</h2>
+<h2>Analysis scripts</h2>
 
 <table>
   <tr>
