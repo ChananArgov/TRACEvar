@@ -30,6 +30,8 @@ TRACEvar scripts and dataset are available for human genome version hg37, hg38.
 In order to obtain an interpretation for a specific variant, you must first run the 'TRACEvar usage for variant prioritization' section.
 Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant variant index (the input is detailed at the top of the script).
 
+
+
 <!DOCTYPE html>
 <html>
 <head>
