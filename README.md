@@ -31,8 +31,6 @@ In order to obtain an interpretation for a specific variant, you must first run 
 Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant variant index (the input is detailed at the top of the script).
 
 
-
-</style>
 </head>
 <body>
 
