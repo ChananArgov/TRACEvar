@@ -79,6 +79,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
   <tr>
     <td>Transfear_Learning_hg37_Multiprossesing_Doc</td>
     <td>Training and evaluating TRAVEvar multi-tissue model</td>
+    <td></td>
   <tr>
     <td>Analyze transfer learning results</td>
     <td>Multi-tissue model performance</td>
@@ -98,8 +99,6 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Analyze Patients Rank</td>
     <td>Statistics and comparision of TRACEvar patients variants prioritization results</td>
     <td>Fig. 5A, Fig. S4</td>
-  </tr>
-    <td></td>
   </tr>
 </table>
 
