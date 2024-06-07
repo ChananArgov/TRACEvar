@@ -47,17 +47,17 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <th>Manuscript figures</th>
   </tr>
   <tr>
-    <td>One_Gene_Model_POC</td>
+    <td>POC_One_gene</td>
     <td>POC examples ML</td>
     <td></td>
   </tr>
   <tr>
-    <td>One_Gene_POC_Figs</td>
+    <td>POC_Plot</td>
     <td>POC plots</td>
-    <td>Fig. 2A-B</td>
+    <td>Fig. 3</td>
   </tr>
   <tr>
-    <td>Compare_TRACEvar_to_Common_Scores</td>
+    <td>Compare_code_test</td>
     <td>comparing TRACEvar performance to common genetic tools</td>
     <td>Fig. 2C-D</td>
   </tr>
@@ -107,7 +107,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
 
 
 # Cite
-Please cite 'TRACEvar: Prioritizing and interpreting pathogenic variants that underlie hereditary diseases in tissue contexts. Argov et al, submitted.'
+Please cite 'Tissue-aware interpretation of genetic variants advances the etiology of rare diseases. Argov et al, submitted.'
 
 # Contact
 Esti Yeger-Lotem, estiyl@bgu.ac.il
