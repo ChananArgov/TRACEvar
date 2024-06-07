@@ -1,7 +1,7 @@
 
 
 # TRACEvar
-TRACEvar is a pathogenic variant prioritization tool that uses tissue-specific ML models. Given data of variants and the identity of the tissue affected by the disease, TRACEvar computes a pathogenicity score for each variant in the affected tissue by using random forest. [TRACEvar](https://netbio.bgu.ac.il/tracevar/) is also available online. 
+TRACEvar is a pathogenic variant prioritization tool that uses tissue-specific ML models. Given data of variants and the identity of the tissue affected by the disease, TRACEvar computes a pathogenicity score for each variant in the affected tissue by using GBM. [TRACEvar](https://netbio.bgu.ac.il/tracevar/) is also available online. 
 
 <img src="TRACEvar concept figure MSB.png.jpg" alt="TRACEvar concept figure">
 
@@ -14,7 +14,7 @@ To use TRACEvar on your device download all the project files and folders to you
 Place the dataset file in the 'Data' folder.
 
 # TRACEvar usage for model construction
-To create TRACEvar tissue-specific random forest models, run the Create_TRACEvar_Models_and_SHAP_Explainers.py script in the 'New Code' folder. For each tissue model, the script will create 5 files in the 'Output' folder, as follows:
+To create TRACEvar tissue-specific random forest models, run the Create_TRACEvar_Models_and_SHAP_Explainers.py script in the 'MSB Code' folder. For each tissue model, the script will create 5 files in the 'Output' folder, as follows:
 1. a python [pickle](https://docs.python.org/3/library/pickle.html) (pkl) that include the trained model.
 2. a pkl file containing a dictionary of the model input features.
 3. a pkl file containing the [SHAP](https://shap.readthedocs.io/en/latest/index.html) explainer.
