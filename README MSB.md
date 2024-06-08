@@ -77,7 +77,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Fig. 3B-C</td>
   </tr>
   <tr>
-    <td>Transfear_Learning_hg37_Multiprossesing_Doc</td>
+    <td>Multi_tissue_models</td>
     <td>Training and evaluating TRAVEvar multi-tissue model</td>
     <td></td>
   <tr>
@@ -86,7 +86,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Fig. 4B</td>
   </tr>
    <tr>
-    <td>Transfer Learning Feature Importance</td>
+    <td>SHAP_Analysis_Multi-Tissue_Model</td>
     <td>Multi-tissue model feature importance analysis</td>
     <td>Fig. 4C</td>
   </tr>
