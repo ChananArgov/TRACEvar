@@ -1,5 +1,5 @@
 """
-Plotting POC examples, Fig 3.
+Plotting POC examples, Fig 2A-B.
 """
 
 
