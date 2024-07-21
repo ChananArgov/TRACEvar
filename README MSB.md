@@ -54,7 +54,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
   <tr>
     <td>POC_Plot</td>
     <td>POC plots</td>
-    <td>Fig. 3</td>
+    <td>Fig. 2A-B</td>
   </tr>
   <tr>
     <td>Compare_code_test</td>
