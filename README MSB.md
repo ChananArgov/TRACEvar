@@ -39,7 +39,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
 
 
 <h2>Analysis scripts</h2>
-
+The updated code is in the 'MSB Scripts' folder. Previous version is in the 'Analysis scripts' folder.
 <table>
   <tr>
     <th>Notebook name</th>
