@@ -77,14 +77,14 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Fig. 4A</td>
   </tr>
   <tr>
-    <td>Feature Importance Analysis</td>
-    <td>Feature importance analysis and plots</td>
-    <td>Fig. 3B-C</td>
+    <td>feature_importance_analysis</td>
+    <td>Feature importance analysis</td>
+    <td>Fig. 4</td>
   </tr>
   <tr>
     <td>Multi_tissue_models</td>
     <td>Training and evaluating TRAVEvar multi-tissue model</td>
-    <td></td>
+    <td>Fig. 5</td>
   <tr>
     <td>Analyze transfer learning results</td>
     <td>Multi-tissue model performance</td>
