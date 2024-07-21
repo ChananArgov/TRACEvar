@@ -67,6 +67,11 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Fig 2. E-F</td>
   </tr>
    <tr>
+    <td>single_variant_analysis</td>
+    <td>Scoring and interpretation for single variant</td>
+    <td>Fig 3.B-D</td>
+  </tr>
+   <tr>
     <td>SHAP_Importance_Slim</td>
     <td>Feature importance for each TRACEvar 17 model</td>
     <td>Fig. 3A</td>
