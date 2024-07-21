@@ -1,5 +1,5 @@
 """
-This script calculates and plots the feature importance for the multi-tissue model (Fig. 4C).
+This script calculates and plots the feature importance for the multi-tissue model (Fig. 5).
 """
 import time
 import matplotlib.pyplot as plt
@@ -19,10 +19,10 @@ import shap
 "---------------------------- Load Data -----------------------"
 
 startTime = time.time()
-path = os.path.join('/gpfs0/estiyl/users/shneyour/TRACEvar/Multi_tissue_model/Data', 'Transfer_Learning_Data_hg37.csv')
+path = os.path.join('..TRACEvar/Multi_tissue_model/Data', 'Transfer_Learning_Data_hg37.csv')
 All_tissues_data= pd.read_csv(path)
 
-path = os.path.join('/gpfs0/estiyl/users/shneyour/TRACEvar/Multi_tissue_model/Data', 'Transfer_Learninig_Relevant_Columns_Names_Edited.csv')
+path = os.path.join('../TRACEvar/Multi_tissue_model/Data', 'Transfer_Learninig_Relevant_Columns_Names_Edited.csv')
 Relevant_Cols_df = pd.read_csv(path)
 overlap_cols = Relevant_Cols_df['Feature'].tolist()
 "---------------------------- Columns Names -----------------------"
@@ -85,7 +85,7 @@ print('@ Feature Importance Saved',  time.time() - startTime)
 shap.summary_plot(shap_values, Synthetic_Dataset[relevant_cols], show=False)
 print('@ Plot created', startTime - time.time())
 plt.tight_layout()
-path = os.path.join('/gpfs0/estiyl/users/shneyour/TRACEvar/Multi_tissue_model/Results', 'Transfer_learning_hg37_SHAP_dot2.pdf')
+path = os.path.join('../TRACEvar/Multi_tissue_model/Results', 'Transfer_learning_hg37_SHAP_dot2.pdf')
 plt.savefig(path)
 plt.close()
 
@@ -94,14 +94,14 @@ plt.close()
 print('@ Finished',  time.time() - startTime)
 
 shap.summary_plot(shap_values, Synthetic_Dataset[relevant_cols], show=False, plot_type='bar')
-path = os.path.join('/gpfs0/estiyl/users/shneyour/TRACEvar/Multi_tissue_model/Results', 'Transfer_learning_hg37_SHAP_bar2.pdf')
+path = os.path.join('../TRACEvar/Multi_tissue_model/Results', 'Transfer_learning_hg37_SHAP_bar2.pdf')
 plt.tight_layout()
 
 plt.savefig(path)
 plt.close()
 
 shap.summary_plot(shap_values, Synthetic_Dataset[relevant_cols], show=False, plot_type='violin')
-path = os.path.join('/gpfs0/estiyl/users/shneyour/TRACEvar/Multi_tissue_model/Results', 'Transfer_learning_hg37_SHAP_violin2.pdf')
+path = os.path.join('../TRACEvar/Multi_tissue_model/Results', 'Transfer_learning_hg37_SHAP_violin2.pdf')
 plt.tight_layout()
 plt.savefig(path)
 plt.close()
