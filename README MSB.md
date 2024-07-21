@@ -72,9 +72,9 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Fig 3.B-D</td>
   </tr>
    <tr>
-    <td>SHAP_Importance_Slim</td>
-    <td>Feature importance for each TRACEvar 17 model</td>
-    <td>Fig. 3A</td>
+    <td>Create_TRACEvar_Models_and_SHAP_Explainers</td>
+    <td>Model creation, feature importance analysis for each TRACEvar 14 model</td>
+    <td>Fig. 4A</td>
   </tr>
   <tr>
     <td>Feature Importance Analysis</td>
