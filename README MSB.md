@@ -85,25 +85,10 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
     <td>Multi_tissue_models</td>
     <td>Training and evaluating TRAVEvar multi-tissue model</td>
     <td>Fig. 5</td>
-  <tr>
-    <td>Analyze transfer learning results</td>
-    <td>Multi-tissue model performance</td>
-    <td>Fig. 4B</td>
-  </tr>
    <tr>
     <td>SHAP_Analysis_Multi-Tissue_Model</td>
     <td>Multi-tissue model feature importance analysis</td>
-    <td>Fig. 4C</td>
-  </tr>
-  <tr>
-    <td>Patient Variants Prioritization</td>
-    <td>Patient variant prioritization and interpretation</td>
-    <td>Fig. 5B-D</td>
-  </tr>
-  <tr>
-    <td>Analyze Patients Rank</td>
-    <td>Statistics and comparision of TRACEvar patients variants prioritization results</td>
-    <td>Fig. 5A, Fig. S4</td>
+    <td>Fig. 5C</td>
   </tr>
 </table>
 
