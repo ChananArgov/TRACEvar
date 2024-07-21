@@ -79,7 +79,7 @@ Then, run the Variant_Interpretation_by_TRACEvar.py script, with the relevant va
   <tr>
     <td>feature_importance_analysis</td>
     <td>Feature importance analysis</td>
-    <td>Fig. 4</td>
+    <td>Fig. 4B-C</td>
   </tr>
   <tr>
     <td>Multi_tissue_models</td>
