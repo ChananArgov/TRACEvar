@@ -1,0 +1,603 @@
+Feature,Feature Name
+Whole_Brain_diff_net_max,Whole Brain  | Differential interactions
+Whole_Blood_diff_net_max,Blood  | Differential interactions
+Vagina_diff_net_max,Vagina  | Differential interactions
+Uterus_diff_net_max,Uterus  | Differential interactions
+Thyroid_diff_net_max,Thyroid  | Differential interactions
+Testis_diff_net_max,Testis  | Differential interactions
+Stomach_diff_net_max,Stomach  | Differential interactions
+Skin_-_Sun_Exposed_(Lower_leg)_diff_net_max,Skin 1  | Differential interactions
+Skin_-_Not_Sun_Exposed_(Suprapubic)_diff_net_max,Skin 2  | Differential interactions
+Prostate_diff_net_max,Prostate  | Differential interactions
+Pituitary_diff_net_max,Pituitary  | Differential interactions
+Ovary_diff_net_max,Ovary  | Differential interactions
+Nerve_-_Tibial_diff_net_max,Nerve  | Differential interactions
+Muscle_-_Skeletal_diff_net_max,Skeletal Muscle  | Differential interactions
+Minor_Salivary_Gland_diff_net_max,Salivary Gland  | Differential interactions
+Lung_diff_net_max,Lung  | Differential interactions
+Liver_diff_net_max,Liver  | Differential interactions
+Heart_-_Left_Ventricle_diff_net_max,Heart 1  | Differential interactions
+Heart_-_Atrial_Appendage_diff_net_max,Heart 2  | Differential interactions
+Esophagus_-_Muscularis_diff_net_max,Esophagus 1  | Differential interactions
+Esophagus_-_Mucosa_diff_net_max,Esophagus 2  | Differential interactions
+Esophagus_-_Gastroesophageal_Junction_diff_net_max,Esophagus 3  | Differential interactions
+Colon_-_Sigmoid_diff_net_max,Colon 1  | Differential interactions
+Cells_-_Transformed_fibroblasts_diff_net_max,Transformed Cells 1  | Differential interactions
+Cells_-_EBV-transformed_lymphocytes_diff_net_max,Transformed Cells 2  | Differential interactions
+Breast_-_Mammary_Tissue_diff_net_max,Breast  | Differential interactions
+Brain_-_Substantia_nigra_diff_net_max,Brain Substantia Nigra  | Differential interactions
+Brain_-_Spinal_cord_(cervical_c-1)_diff_net_max,Spinal Cord  | Differential interactions
+Brain_-_Putamen_(basal_ganglia)_diff_net_max,Brain Basal Ganglia 1  | Differential interactions
+Brain_-_Nucleus_accumbens_(basal_ganglia)_diff_net_max,Brain Basal Ganglia 2  | Differential interactions
+Brain_-_Hypothalamus_diff_net_max,Brain Hypothalamus  | Differential interactions
+Brain_-_Hippocampus_diff_net_max,Brain Hippocampus  | Differential interactions
+Brain_-_Frontal_Cortex_(BA9)_diff_net_max,Brain Frontal Cortex  | Differential interactions
+Brain_-_Cortex_diff_net_max,Brain Cortex  | Differential interactions
+Brain_-_Cerebellum_diff_net_max,Brain Cerebellum  | Differential interactions
+Brain_-_Cerebellar_Hemisphere_diff_net_max,Brain Cerebellar  | Differential interactions
+Brain_-_Caudate_(basal_ganglia)_diff_net_max,Brain Basal Ganglia 3  | Differential interactions
+Brain_-_Anterior_cingulate_cortex_(BA24)_diff_net_max,Brain Anterior  | Differential interactions
+Brain_-_Amygdala_diff_net_max,Brain Amygdala  | Differential interactions
+Artery_-_Tibial_diff_net_max,Artery 1  | Differential interactions
+Artery_-_Coronary_diff_net_max,Artery 2  | Differential interactions
+Artery_-_Aorta_diff_net_max,Artery 3  | Differential interactions
+Adipose_-_Visceral_(Omentum)_diff_net_max,Adipose Visceral  | Differential interactions
+Adipose_-_Subcutaneous_diff_net_max,Adipose Subcutaneous  | Differential interactions
+Whole Blood_paralogs_ratio_highest_identity,Blood  | Paralog compensation
+Adipose - Subcutaneous_paralogs_ratio_highest_identity,Adipose Subcutaneous  | Paralog compensation
+Muscle - Skeletal_paralogs_ratio_highest_identity,Skeletal Muscle  | Paralog compensation
+Artery - Tibial_paralogs_ratio_highest_identity,Artery 1  | Paralog compensation
+Artery - Coronary_paralogs_ratio_highest_identity,Artery 2  | Paralog compensation
+Heart - Atrial Appendage_paralogs_ratio_highest_identity,Heart 2  | Paralog compensation
+Adipose - Visceral (Omentum)_paralogs_ratio_highest_identity,Adipose Visceral  | Paralog compensation
+Ovary_paralogs_ratio_highest_identity,Ovary  | Paralog compensation
+Uterus_paralogs_ratio_highest_identity,Uterus  | Paralog compensation
+Vagina_paralogs_ratio_highest_identity,Vagina  | Paralog compensation
+Breast - Mammary Tissue_paralogs_ratio_highest_identity,Breast  | Paralog compensation
+Skin - Not Sun Exposed (Suprapubic)_paralogs_ratio_highest_identity,Skin 2  | Paralog compensation
+Minor Salivary Gland_paralogs_ratio_highest_identity,Salivary Gland  | Paralog compensation
+Brain - Cortex_paralogs_ratio_highest_identity,Brain Cortex  | Paralog compensation
+Adrenal Gland_paralogs_ratio_highest_identity,Adrenal Gland  | Paralog compensation
+Thyroid_paralogs_ratio_highest_identity,Thyroid  | Paralog compensation
+Lung_paralogs_ratio_highest_identity,Lung  | Paralog compensation
+Spleen_paralogs_ratio_highest_identity,Spleen  | Paralog compensation
+Pancreas_paralogs_ratio_highest_identity,Pancreas  | Paralog compensation
+Esophagus - Muscularis_paralogs_ratio_highest_identity,Esophagus 1  | Paralog compensation
+Esophagus - Mucosa_paralogs_ratio_highest_identity,Esophagus 2  | Paralog compensation
+Esophagus - Gastroesophageal Junction_paralogs_ratio_highest_identity,Esophagus 3  | Paralog compensation
+Stomach_paralogs_ratio_highest_identity,Stomach  | Paralog compensation
+Colon - Sigmoid_paralogs_ratio_highest_identity,Colon 1  | Paralog compensation
+Small Intestine - Terminal Ileum_paralogs_ratio_highest_identity,Small Intestine - Terminal Ileum  | Paralog compensation
+Colon - Transverse_paralogs_ratio_highest_identity,Colon 2  | Paralog compensation
+Prostate_paralogs_ratio_highest_identity,Prostate  | Paralog compensation
+Testis_paralogs_ratio_highest_identity,Testis  | Paralog compensation
+Skin - Sun Exposed (Lower leg)_paralogs_ratio_highest_identity,Skin 1  | Paralog compensation
+Nerve - Tibial_paralogs_ratio_highest_identity,Nerve  | Paralog compensation
+Heart - Left Ventricle_paralogs_ratio_highest_identity,Heart 1  | Paralog compensation
+Pituitary_paralogs_ratio_highest_identity,Pituitary  | Paralog compensation
+Brain - Cerebellum_paralogs_ratio_highest_identity,Brain Cerebellum  | Paralog compensation
+Cells - Transformed fibroblasts_paralogs_ratio_highest_identity,Transformed Cells 1  | Paralog compensation
+Artery - Aorta_paralogs_ratio_highest_identity,Artery 3  | Paralog compensation
+Cells - EBV-transformed lymphocytes_paralogs_ratio_highest_identity,Transformed Cells 2  | Paralog compensation
+Liver_paralogs_ratio_highest_identity,Liver  | Paralog compensation
+Kidney - Cortex_paralogs_ratio_highest_identity,Kidney 1  | Paralog compensation
+Brain - Hippocampus_paralogs_ratio_highest_identity,Brain Hippocampus  | Paralog compensation
+Brain - Substantia nigra_paralogs_ratio_highest_identity,Brain Substantia Nigra  | Paralog compensation
+Brain - Anterior cingulate cortex (BA24)_paralogs_ratio_highest_identity,Brain Anterior  | Paralog compensation
+Brain - Frontal Cortex (BA9)_paralogs_ratio_highest_identity,Brain Frontal Cortex  | Paralog compensation
+Brain - Cerebellar Hemisphere_paralogs_ratio_highest_identity,Brain Cerebellar  | Paralog compensation
+Brain - Caudate (basal ganglia)_paralogs_ratio_highest_identity,Brain Basal Ganglia 3  | Paralog compensation
+Brain - Nucleus accumbens (basal ganglia)_paralogs_ratio_highest_identity,Brain Basal Ganglia 2  | Paralog compensation
+Brain - Putamen (basal ganglia)_paralogs_ratio_highest_identity,Brain Basal Ganglia 1  | Paralog compensation
+Brain - Hypothalamus_paralogs_ratio_highest_identity,Brain Hypothalamus  | Paralog compensation
+Brain - Spinal cord (cervical c-1)_paralogs_ratio_highest_identity,Spinal Cord  | Paralog compensation
+Brain - Amygdala_paralogs_ratio_highest_identity,Brain Amygdala  | Paralog compensation
+Fallopian Tube_paralogs_ratio_highest_identity,Fallopian Tube  | Paralog compensation
+Bladder_paralogs_ratio_highest_identity,Bladder  | Paralog compensation
+Cervix - Ectocervix_paralogs_ratio_highest_identity,Cervix 1  | Paralog compensation
+Cervix - Endocervix_paralogs_ratio_highest_identity,Cervix 2  | Paralog compensation
+Adipose - Subcutaneous_preferential_expression,Adipose Subcutaneous | Preferential expression
+Muscle - Skeletal_preferential_expression,Skeletal Muscle | Preferential expression
+Artery - Tibial_preferential_expression,Artery 1 | Preferential expression
+Artery - Coronary_preferential_expression,Artery 2 | Preferential expression
+Heart - Atrial Appendage_preferential_expression,Heart 2 | Preferential expression
+Adipose - Visceral (Omentum)_preferential_expression,Adipose Visceral | Preferential expression
+Uterus_preferential_expression,Uterus | Preferential expression
+Vagina_preferential_expression,Vagina | Preferential expression
+Breast - Mammary Tissue_preferential_expression,Breast | Preferential expression
+Skin - Not Sun Exposed (Suprapubic)_preferential_expression,Skin 2 | Preferential expression
+Minor Salivary Gland_preferential_expression,Salivary Gland | Preferential expression
+Brain - Cortex_preferential_expression,Brain Cortex | Preferential expression
+Adrenal Gland_preferential_expression,Adrenal Gland | Preferential expression
+Thyroid_preferential_expression,Thyroid | Preferential expression
+Lung_preferential_expression,Lung | Preferential expression
+Spleen_preferential_expression,Spleen | Preferential expression
+Pancreas_preferential_expression,Pancreas | Preferential expression
+Esophagus - Muscularis_preferential_expression,Esophagus 1 | Preferential expression
+Esophagus - Mucosa_preferential_expression,Esophagus 2 | Preferential expression
+Esophagus - Gastroesophageal Junction_preferential_expression,Esophagus 3 | Preferential expression
+Stomach_preferential_expression,Stomach | Preferential expression
+Colon - Sigmoid_preferential_expression,Colon 1 | Preferential expression
+Small Intestine - Terminal Ileum_preferential_expression,Small Intestine - Terminal Ileum | Preferential expression
+Colon - Transverse_preferential_expression,Colon 2 | Preferential expression
+Prostate_preferential_expression,Prostate | Preferential expression
+Testis_preferential_expression,Testis | Preferential expression
+Nerve - Tibial_preferential_expression,Nerve | Preferential expression
+Skin - Sun Exposed (Lower leg)_preferential_expression,Skin 1 | Preferential expression
+Heart - Left Ventricle_preferential_expression,Heart 1 | Preferential expression
+Brain - Cerebellum_preferential_expression,Brain Cerebellum | Preferential expression
+Cells - Cultured fibroblasts_preferential_expression,Cells - Cultured fibroblasts | Preferential expression
+Whole Blood_preferential_expression,Blood | Preferential expression
+Artery - Aorta_preferential_expression,Artery 3 | Preferential expression
+Cells - EBV-transformed lymphocytes_preferential_expression,Transformed Cells 2 | Preferential expression
+Pituitary_preferential_expression,Pituitary | Preferential expression
+Brain - Frontal Cortex (BA9)_preferential_expression,Brain Frontal Cortex | Preferential expression
+Brain - Caudate (basal ganglia)_preferential_expression,Brain Basal Ganglia 3 | Preferential expression
+Brain - Nucleus accumbens (basal ganglia)_preferential_expression,Brain Basal Ganglia 2 | Preferential expression
+Brain - Putamen (basal ganglia)_preferential_expression,Brain Basal Ganglia 1 | Preferential expression
+Brain - Hypothalamus_preferential_expression,Brain Hypothalamus | Preferential expression
+Brain - Spinal cord (cervical c-1)_preferential_expression,Spinal Cord | Preferential expression
+Brain - Hippocampus_preferential_expression,Brain Hippocampus | Preferential expression
+Brain - Anterior cingulate cortex (BA24)_preferential_expression,Brain Anterior | Preferential expression
+Ovary_preferential_expression,Ovary | Preferential expression
+Brain - Cerebellar Hemisphere_preferential_expression,Brain Cerebellar | Preferential expression
+Liver_preferential_expression,Liver | Preferential expression
+Brain - Substantia nigra_preferential_expression,Brain Substantia Nigra | Preferential expression
+Kidney - Cortex_preferential_expression,Kidney 1 | Preferential expression
+Brain - Amygdala_preferential_expression,Brain Amygdala | Preferential expression
+Cervix - Ectocervix_preferential_expression,Cervix 1 | Preferential expression
+Fallopian Tube_preferential_expression,Fallopian Tube | Preferential expression
+Cervix - Endocervix_preferential_expression,Cervix 2 | Preferential expression
+Bladder_preferential_expression,Bladder | Preferential expression
+Kidney - Medulla_preferential_expression,Kidney 2 | Preferential expression
+Adipose - Subcutaneous_expression,Adipose Subcutaneous | Expression (GTEx)
+Muscle - Skeletal_expression,Skeletal Muscle | Expression (GTEx)
+Artery - Tibial_expression,Artery 1 | Expression (GTEx)
+Artery - Coronary_expression,Artery 2 | Expression (GTEx)
+Heart - Atrial Appendage_expression,Heart 2 | Expression (GTEx)
+Adipose - Visceral (Omentum)_expression,Adipose Visceral | Expression (GTEx)
+Uterus_expression,Uterus | Expression (GTEx)
+Vagina_expression,Vagina | Expression (GTEx)
+Breast - Mammary Tissue_expression,Breast | Expression (GTEx)
+Skin - Not Sun Exposed (Suprapubic)_expression,Skin 2 | Expression (GTEx)
+Minor Salivary Gland_expression,Salivary Gland | Expression (GTEx)
+Brain - Cortex_expression,Brain Cortex | Expression (GTEx)
+Adrenal Gland_expression,Adrenal Gland | Expression (GTEx)
+Thyroid_expression,Thyroid | Expression (GTEx)
+Lung_expression,Lung | Expression (GTEx)
+Spleen_expression,Spleen | Expression (GTEx)
+Pancreas_expression,Pancreas | Expression (GTEx)
+Esophagus - Muscularis_expression,Esophagus 1 | Expression (GTEx)
+Esophagus - Mucosa_expression,Esophagus 2 | Expression (GTEx)
+Esophagus - Gastroesophageal Junction_expression,Esophagus 3 | Expression (GTEx)
+Stomach_expression,Stomach | Expression (GTEx)
+Colon - Sigmoid_expression,Colon 1 | Expression (GTEx)
+Small Intestine - Terminal Ileum_expression,Small Intestine - Terminal Ileum | Expression (GTEx)
+Colon - Transverse_expression,Colon 2 | Expression (GTEx)
+Prostate_expression,Prostate | Expression (GTEx)
+Testis_expression,Testis | Expression (GTEx)
+Nerve - Tibial_expression,Nerve | Expression (GTEx)
+Skin - Sun Exposed (Lower leg)_expression,Skin 1 | Expression (GTEx)
+Heart - Left Ventricle_expression,Heart 1 | Expression (GTEx)
+Brain - Cerebellum_expression,Brain Cerebellum | Expression (GTEx)
+Cells - Cultured fibroblasts_expression,Cells - Cultured fibroblasts | Expression (GTEx)
+Whole Blood_expression,Blood | Expression (GTEx)
+Artery - Aorta_expression,Artery 3 | Expression (GTEx)
+Cells - EBV-transformed lymphocytes_expression,Transformed Cells 2 | Expression (GTEx)
+Pituitary_expression,Pituitary | Expression (GTEx)
+Brain - Frontal Cortex (BA9)_expression,Brain Frontal Cortex | Expression (GTEx)
+Brain - Caudate (basal ganglia)_expression,Brain Basal Ganglia 3 | Expression (GTEx)
+Brain - Nucleus accumbens (basal ganglia)_expression,Brain Basal Ganglia 2 | Expression (GTEx)
+Brain - Putamen (basal ganglia)_expression,Brain Basal Ganglia 1 | Expression (GTEx)
+Brain - Hypothalamus_expression,Brain Hypothalamus | Expression (GTEx)
+Brain - Spinal cord (cervical c-1)_expression,Spinal Cord | Expression (GTEx)
+Brain - Hippocampus_expression,Brain Hippocampus | Expression (GTEx)
+Brain - Anterior cingulate cortex (BA24)_expression,Brain Anterior | Expression (GTEx)
+Ovary_expression,Ovary | Expression (GTEx)
+Brain - Cerebellar Hemisphere_expression,Brain Cerebellar | Expression (GTEx)
+Liver_expression,Liver | Expression (GTEx)
+Brain - Substantia nigra_expression,Brain Substantia Nigra | Expression (GTEx)
+Kidney - Cortex_expression,Kidney 1 | Expression (GTEx)
+Brain - Amygdala_expression,Brain Amygdala | Expression (GTEx)
+Cervix - Ectocervix_expression,Cervix 1 | Expression (GTEx)
+Fallopian Tube_expression,Fallopian Tube | Expression (GTEx)
+Cervix - Endocervix_expression,Cervix 2 | Expression (GTEx)
+Bladder_expression,Bladder | Expression (GTEx)
+Kidney - Medulla_expression,Kidney 2 | Expression (GTEx)
+Adipose - Subcutaneous_num_elevated_interactors,Adipose Subcutaneous | Overexpressed interactors
+Muscle - Skeletal_num_elevated_interactors,Skeletal Muscle | Overexpressed interactors
+Artery - Tibial_num_elevated_interactors,Artery 1 | Overexpressed interactors
+Artery - Coronary_num_elevated_interactors,Artery 2 | Overexpressed interactors
+Heart - Atrial Appendage_num_elevated_interactors,Heart 2 | Overexpressed interactors
+Adipose - Visceral (Omentum)_num_elevated_interactors,Adipose Visceral | Overexpressed interactors
+Uterus_num_elevated_interactors,Uterus | Overexpressed interactors
+Vagina_num_elevated_interactors,Vagina | Overexpressed interactors
+Breast - Mammary Tissue_num_elevated_interactors,Breast | Overexpressed interactors
+Skin - Not Sun Exposed (Suprapubic)_num_elevated_interactors,Skin 2 | Overexpressed interactors
+Minor Salivary Gland_num_elevated_interactors,Salivary Gland | Overexpressed interactors
+Brain - Cortex_num_elevated_interactors,Brain Cortex | Overexpressed interactors
+Adrenal Gland_num_elevated_interactors,Adrenal Gland | Overexpressed interactors
+Thyroid_num_elevated_interactors,Thyroid | Overexpressed interactors
+Lung_num_elevated_interactors,Lung | Overexpressed interactors
+Spleen_num_elevated_interactors,Spleen | Overexpressed interactors
+Pancreas_num_elevated_interactors,Pancreas | Overexpressed interactors
+Esophagus - Muscularis_num_elevated_interactors,Esophagus 1 | Overexpressed interactors
+Esophagus - Mucosa_num_elevated_interactors,Esophagus 2 | Overexpressed interactors
+Esophagus - Gastroesophageal Junction_num_elevated_interactors,Esophagus 3 | Overexpressed interactors
+Stomach_num_elevated_interactors,Stomach | Overexpressed interactors
+Colon - Sigmoid_num_elevated_interactors,Colon 1 | Overexpressed interactors
+Small Intestine - Terminal Ileum_num_elevated_interactors,Small Intestine - Terminal Ileum | Overexpressed interactors
+Colon - Transverse_num_elevated_interactors,Colon 2 | Overexpressed interactors
+Prostate_num_elevated_interactors,Prostate | Overexpressed interactors
+Testis_num_elevated_interactors,Testis | Overexpressed interactors
+Nerve - Tibial_num_elevated_interactors,Nerve | Overexpressed interactors
+Skin - Sun Exposed (Lower leg)_num_elevated_interactors,Skin 1 | Overexpressed interactors
+Heart - Left Ventricle_num_elevated_interactors,Heart 1 | Overexpressed interactors
+Brain - Cerebellum_num_elevated_interactors,Brain Cerebellum | Overexpressed interactors
+Cells - Cultured fibroblasts_num_elevated_interactors,Cells - Cultured fibroblasts | Overexpressed interactors
+Whole Blood_num_elevated_interactors,Blood | Overexpressed interactors
+Artery - Aorta_num_elevated_interactors,Artery 3 | Overexpressed interactors
+Cells - EBV-transformed lymphocytes_num_elevated_interactors,Transformed Cells 2 | Overexpressed interactors
+Pituitary_num_elevated_interactors,Pituitary | Overexpressed interactors
+Brain - Frontal Cortex (BA9)_num_elevated_interactors,Brain Frontal Cortex | Overexpressed interactors
+Brain - Caudate (basal ganglia)_num_elevated_interactors,Brain Basal Ganglia 3 | Overexpressed interactors
+Brain - Nucleus accumbens (basal ganglia)_num_elevated_interactors,Brain Basal Ganglia 2 | Overexpressed interactors
+Brain - Putamen (basal ganglia)_num_elevated_interactors,Brain Basal Ganglia 1 | Overexpressed interactors
+Brain - Hypothalamus_num_elevated_interactors,Brain Hypothalamus | Overexpressed interactors
+Brain - Spinal cord (cervical c-1)_num_elevated_interactors,Spinal Cord | Overexpressed interactors
+Brain - Hippocampus_num_elevated_interactors,Brain Hippocampus | Overexpressed interactors
+Brain - Anterior cingulate cortex (BA24)_num_elevated_interactors,Brain Anterior | Overexpressed interactors
+Ovary_num_elevated_interactors,Ovary | Overexpressed interactors
+Brain - Cerebellar Hemisphere_num_elevated_interactors,Brain Cerebellar | Overexpressed interactors
+Liver_num_elevated_interactors,Liver | Overexpressed interactors
+Brain - Substantia nigra_num_elevated_interactors,Brain Substantia Nigra | Overexpressed interactors
+Kidney - Cortex_num_elevated_interactors,Kidney 1 | Overexpressed interactors
+Brain - Amygdala_num_elevated_interactors,Brain Amygdala | Overexpressed interactors
+Cervix - Ectocervix_num_elevated_interactors,Cervix 1 | Overexpressed interactors
+Fallopian Tube_num_elevated_interactors,Fallopian Tube | Overexpressed interactors
+Cervix - Endocervix_num_elevated_interactors,Cervix 2 | Overexpressed interactors
+Bladder_num_elevated_interactors,Bladder | Overexpressed interactors
+Kidney - Medulla_num_elevated_interactors,Kidney 2 | Overexpressed interactors
+Adipose - Subcutaneous_max_tipa_pathways,Adipose Subcutaneous | Biological processes
+Adipose - Visceral (Omentum)_max_tipa_pathways,Adipose Visceral | Biological processes
+Artery - Aorta_max_tipa_pathways,Artery 3 | Biological processes
+Artery - Coronary_max_tipa_pathways,Artery 2 | Biological processes
+Artery - Tibial_max_tipa_pathways,Artery 1 | Biological processes
+Brain0_max_tipa_pathways,Brain0 | Biological processes
+Brain1_max_tipa_pathways,Brain1 | Biological processes
+Brain2_max_tipa_pathways,Brain2 | Biological processes
+Breast - Mammary Tissue_max_tipa_pathways,Breast | Biological processes
+Colon - Sigmoid_max_tipa_pathways,Colon 1 | Biological processes
+Esophagus - Gastroesophageal Junction_max_tipa_pathways,Esophagus 3 | Biological processes
+Esophagus - Mucosa_max_tipa_pathways,Esophagus 2 | Biological processes
+Esophagus - Muscularis_max_tipa_pathways,Esophagus 1 | Biological processes
+Heart - Atrial Appendage_max_tipa_pathways,Heart 2 | Biological processes
+Heart - Left Ventricle_max_tipa_pathways,Heart 1 | Biological processes
+Liver_max_tipa_pathways,Liver | Biological processes
+Lung_max_tipa_pathways,Lung | Biological processes
+Muscle - Skeletal_max_tipa_pathways,Skeletal Muscle | Biological processes
+Nerve - Tibial_max_tipa_pathways,Nerve | Biological processes
+Ovary_max_tipa_pathways,Ovary | Biological processes
+Pituitary_max_tipa_pathways,Pituitary | Biological processes
+Prostate_max_tipa_pathways,Prostate | Biological processes
+Skin - Not Sun Exposed (Suprapubic)_max_tipa_pathways,Skin 2 | Biological processes
+Skin - Sun Exposed (Lowerleg)_max_tipa_pathways,Skin 1 | Biological processes
+Testis_max_tipa_pathways,Testis | Biological processes
+Thyroid_max_tipa_pathways,Thyroid | Biological processes
+Uterus_max_tipa_pathways,Uterus | Biological processes
+Whole Blood_max_tipa_pathways,Blood | Biological processes
+Brain.4wpc_Development,"Brain | Expression time (Embryonic, week 4)"
+Brain.5wpc_Development,"Brain | Expression time (Embryonic, week 5)"
+Brain.7wpc_Development,"Brain | Expression time (Embryonic, week 7)"
+Brain.8wpc_Development,"Brain | Expression time (Embryonic, week 8)"
+Brain.9wpc_Development,"Brain | Expression time (Embryonic, week 9)"
+Brain.10wpc_Development,"Brain | Expression time (Embryonic, week 10)"
+Brain.11wpc_Development,"Brain | Expression time (Embryonic, week 11)"
+Brain.12wpc_Development,"Brain | Expression time (Embryonic, week 12)"
+Brain.13wpc_Development,"Brain | Expression time (Embryonic, week 13)"
+Brain.16wpc_Development,"Brain | Expression time (Embryonic, week 16)"
+Brain.18wpc_Development,"Brain | Expression time (Embryonic, week 18)"
+Brain.19wpc_Development,"Brain | Expression time (Embryonic, week 19)"
+Brain.20wpc_Development,"Brain | Expression time (Embryonic, week 20)"
+Brain.newborn_Development,Brain | Expression time (newborn)
+Brain.infant_Development,Brain | Expression time (infant)
+Brain.toddler_Development,Brain | Expression time (toddler)
+Brain.school_Development,Brain | Expression time (school)
+Brain.teenager_Development,Brain | Expression time (teenager)
+Brain.youngAdult_Development,Brain | Expression time (youngAdult)
+Brain.youngMidAge_Development,Brain | Expression time (youngMidAge)
+Brain.olderMidAge_Development,Brain | Expression time (olderMidAge)
+Brain.senior_Development,Brain | Expression time (senior)
+Cerebellum.4wpc_Development,"Cerebellum | Expression time (Embryonic, week 4)"
+Cerebellum.5wpc_Development,"Cerebellum | Expression time (Embryonic, week 5)"
+Cerebellum.6wpc_Development,"Cerebellum | Expression time (Embryonic, week 6)"
+Cerebellum.7wpc_Development,"Cerebellum | Expression time (Embryonic, week 7)"
+Cerebellum.8wpc_Development,"Cerebellum | Expression time (Embryonic, week 8)"
+Cerebellum.9wpc_Development,"Cerebellum | Expression time (Embryonic, week 9)"
+Cerebellum.10wpc_Development,"Cerebellum | Expression time (Embryonic, week 10)"
+Cerebellum.11wpc_Development,"Cerebellum | Expression time (Embryonic, week 11)"
+Cerebellum.12wpc_Development,"Cerebellum | Expression time (Embryonic, week 12)"
+Cerebellum.13wpc_Development,"Cerebellum | Expression time (Embryonic, week 13)"
+Cerebellum.16wpc_Development,"Cerebellum | Expression time (Embryonic, week 16)"
+Cerebellum.newborn_Development,Cerebellum | Expression time (newborn)
+Cerebellum.infant_Development,Cerebellum | Expression time (infant)
+Cerebellum.toddler_Development,Cerebellum | Expression time (toddler)
+Cerebellum.school_Development,Cerebellum | Expression time (school)
+Cerebellum.teenager_Development,Cerebellum | Expression time (teenager)
+Cerebellum.youngAdult_Development,Cerebellum | Expression time (youngAdult)
+Cerebellum.youngMidAge_Development,Cerebellum | Expression time (youngMidAge)
+Cerebellum.olderMidAge_Development,Cerebellum | Expression time (olderMidAge)
+Cerebellum.senior_Development,Cerebellum | Expression time (senior)
+Heart.4wpc_Development,"Heart | Expression time (Embryonic, week 4)"
+Heart.5wpc_Development,"Heart | Expression time (Embryonic, week 5)"
+Heart.6wpc_Development,"Heart | Expression time (Embryonic, week 6)"
+Heart.7wpc_Development,"Heart | Expression time (Embryonic, week 7)"
+Heart.8wpc_Development,"Heart | Expression time (Embryonic, week 8)"
+Heart.9wpc_Development,"Heart | Expression time (Embryonic, week 9)"
+Heart.10wpc_Development,"Heart | Expression time (Embryonic, week 10)"
+Heart.11wpc_Development,"Heart | Expression time (Embryonic, week 11)"
+Heart.12wpc_Development,"Heart | Expression time (Embryonic, week 12)"
+Heart.13wpc_Development,"Heart | Expression time (Embryonic, week 13)"
+Heart.16wpc_Development,"Heart | Expression time (Embryonic, week 16)"
+Heart.18wpc_Development,"Heart | Expression time (Embryonic, week 18)"
+Heart.19wpc_Development,"Heart | Expression time (Embryonic, week 19)"
+Heart.newborn_Development,Heart | Expression time (newborn)
+Heart.infant_Development,Heart | Expression time (infant)
+Heart.toddler_Development,Heart | Expression time (toddler)
+Heart.teenager_Development,Heart | Expression time (teenager)
+Heart.youngAdult_Development,Heart | Expression time (youngAdult)
+Heart.olderMidAge_Development,Heart | Expression time (olderMidAge)
+Kidney.4wpc_Development,"Kidney | Expression time (Embryonic, week 4)"
+Kidney.5wpc_Development,"Kidney | Expression time (Embryonic, week 5)"
+Kidney.6wpc_Development,"Kidney | Expression time (Embryonic, week 6)"
+Kidney.7wpc_Development,"Kidney | Expression time (Embryonic, week 7)"
+Kidney.8wpc_Development,"Kidney | Expression time (Embryonic, week 8)"
+Kidney.9wpc_Development,"Kidney | Expression time (Embryonic, week 9)"
+Kidney.10wpc_Development,"Kidney | Expression time (Embryonic, week 10)"
+Kidney.11wpc_Development,"Kidney | Expression time (Embryonic, week 11)"
+Kidney.12wpc_Development,"Kidney | Expression time (Embryonic, week 12)"
+Kidney.13wpc_Development,"Kidney | Expression time (Embryonic, week 13)"
+Kidney.16wpc_Development,"Kidney | Expression time (Embryonic, week 16)"
+Kidney.18wpc_Development,"Kidney | Expression time (Embryonic, week 18)"
+Kidney.19wpc_Development,"Kidney | Expression time (Embryonic, week 19)"
+Kidney.20wpc_Development,"Kidney | Expression time (Embryonic, week 20)"
+Kidney.newborn_Development,Kidney | Expression time (newborn)
+Kidney.infant_Development,Kidney | Expression time (infant)
+Kidney.toddler_Development,Kidney | Expression time (toddler)
+Kidney.school_Development,Kidney | Expression time (school)
+Liver.4wpc_Development,"Liver | Expression time (Embryonic, week 4)"
+Liver.5wpc_Development,"Liver | Expression time (Embryonic, week 5)"
+Liver.6wpc_Development,"Liver | Expression time (Embryonic, week 6)"
+Liver.7wpc_Development,"Liver | Expression time (Embryonic, week 7)"
+Liver.8wpc_Development,"Liver | Expression time (Embryonic, week 8)"
+Liver.9wpc_Development,"Liver | Expression time (Embryonic, week 9)"
+Liver.10wpc_Development,"Liver | Expression time (Embryonic, week 10)"
+Liver.11wpc_Development,"Liver | Expression time (Embryonic, week 11)"
+Liver.12wpc_Development,"Liver | Expression time (Embryonic, week 12)"
+Liver.13wpc_Development,"Liver | Expression time (Embryonic, week 13)"
+Liver.16wpc_Development,"Liver | Expression time (Embryonic, week 16)"
+Liver.18wpc_Development,"Liver | Expression time (Embryonic, week 18)"
+Liver.19wpc_Development,"Liver | Expression time (Embryonic, week 19)"
+Liver.20wpc_Development,"Liver | Expression time (Embryonic, week 20)"
+Liver.newborn_Development,Liver | Expression time (newborn)
+Liver.infant_Development,Liver | Expression time (infant)
+Liver.toddler_Development,Liver | Expression time (toddler)
+Liver.school_Development,Liver | Expression time (school)
+Liver.teenager_Development,Liver | Expression time (teenager)
+Liver.youngAdult_Development,Liver | Expression time (youngAdult)
+Liver.olderMidAge_Development,Liver | Expression time (olderMidAge)
+Liver.senior_Development,Liver | Expression time (senior)
+Ovary.4wpc_Development,"Ovary | Expression time (Embryonic, week 4)"
+Ovary.5wpc_Development,"Ovary | Expression time (Embryonic, week 5)"
+Ovary.6wpc_Development,"Ovary | Expression time (Embryonic, week 6)"
+Ovary.7wpc_Development,"Ovary | Expression time (Embryonic, week 7)"
+Ovary.8wpc_Development,"Ovary | Expression time (Embryonic, week 8)"
+Ovary.9wpc_Development,"Ovary | Expression time (Embryonic, week 9)"
+Ovary.10wpc_Development,"Ovary | Expression time (Embryonic, week 10)"
+Ovary.11wpc_Development,"Ovary | Expression time (Embryonic, week 11)"
+Ovary.12wpc_Development,"Ovary | Expression time (Embryonic, week 12)"
+Ovary.13wpc_Development,"Ovary | Expression time (Embryonic, week 13)"
+Ovary.16wpc_Development,"Ovary | Expression time (Embryonic, week 16)"
+Ovary.18wpc_Development,"Ovary | Expression time (Embryonic, week 18)"
+Testis.4wpc_Development,"Testis | Expression time (Embryonic, week 4)"
+Testis.5wpc_Development,"Testis | Expression time (Embryonic, week 5)"
+Testis.6wpc_Development,"Testis | Expression time (Embryonic, week 6)"
+Testis.7wpc_Development,"Testis | Expression time (Embryonic, week 7)"
+Testis.8wpc_Development,"Testis | Expression time (Embryonic, week 8)"
+Testis.9wpc_Development,"Testis | Expression time (Embryonic, week 9)"
+Testis.10wpc_Development,"Testis | Expression time (Embryonic, week 10)"
+Testis.11wpc_Development,"Testis | Expression time (Embryonic, week 11)"
+Testis.12wpc_Development,"Testis | Expression time (Embryonic, week 12)"
+Testis.13wpc_Development,"Testis | Expression time (Embryonic, week 13)"
+Testis.16wpc_Development,"Testis | Expression time (Embryonic, week 16)"
+Testis.18wpc_Development,"Testis | Expression time (Embryonic, week 18)"
+Testis.19wpc_Development,"Testis | Expression time (Embryonic, week 19)"
+Testis.infant_Development,Testis | Expression time (infant)
+Testis.toddler_Development,Testis | Expression time (toddler)
+Testis.youngTeenager_Development,Testis | Expression time (youngTeenager)
+Testis.oldTeenager_Development,Testis | Expression time (oldTeenager)
+Testis.youngAdult_Development,Testis | Expression time (youngAdult)
+Testis.youngMidAge_Development,Testis | Expression time (youngMidAge)
+Testis.olderMidAge_Development,Testis | Expression time (olderMidAge)
+Testis.Senior_Development,Testis | Expression time (Senior)
+Whole_Blood_egene,Blood  | eQTLs (GTEx)
+Muscle_Skeletal_egene,Muscle Skeletal  | eQTLs (GTEx)
+Heart_Left_Ventricle_egene,Heart Left Ventricle  | eQTLs (GTEx)
+Liver_egene,Liver  | eQTLs (GTEx)
+Cells_Transformed_fibroblasts_egene,Cells Transformed fibroblasts  | eQTLs (GTEx)
+Adipose_Subcutaneous_egene,Adipose Subcutaneous  | eQTLs (GTEx)
+Adipose_Visceral_Omentum_egene,Adipose Visceral Omentum  | eQTLs (GTEx)
+Adrenal_Gland_egene,Adrenal Gland  | eQTLs (GTEx)
+Artery_Aorta_egene,Artery Aorta  | eQTLs (GTEx)
+Artery_Coronary_egene,Artery Coronary  | eQTLs (GTEx)
+Artery_Tibial_egene,Artery Tibial  | eQTLs (GTEx)
+Brain_Amygdala_egene,Brain Amygdala  | eQTLs (GTEx)
+Brain_Anterior_cingulate_cortex_BA24_egene,Brain Anterior cingulate cortex BA24  | eQTLs (GTEx)
+Brain_Caudate_basal_ganglia_egene,Brain Caudate basal ganglia  | eQTLs (GTEx)
+Brain_Cerebellar_Hemisphere_egene,Brain Cerebellar Hemisphere  | eQTLs (GTEx)
+Brain_Cerebellum_egene,Brain Cerebellum  | eQTLs (GTEx)
+Brain_Cortex_egene,Brain Cortex  | eQTLs (GTEx)
+Brain_Frontal_Cortex_BA9_egene,Brain Frontal Cortex BA9  | eQTLs (GTEx)
+Brain_Hippocampus_egene,Brain Hippocampus  | eQTLs (GTEx)
+Brain_Hypothalamus_egene,Brain Hypothalamus  | eQTLs (GTEx)
+Brain_Nucleus_accumbens_basal_ganglia_egene,Brain Nucleus accumbens basal ganglia  | eQTLs (GTEx)
+Brain_Putamen_basal_ganglia_egene,Brain Putamen basal ganglia  | eQTLs (GTEx)
+Brain_Spinal_cord_cervical_c-1_egene,Brain Spinal cord cervical c-1  | eQTLs (GTEx)
+Brain_Substantia_nigra_egene,Brain Substantia nigra  | eQTLs (GTEx)
+Breast_Mammary_Tissue_egene,Breast Mammary Tissue  | eQTLs (GTEx)
+Cells_EBV-transformed_lymphocytes_egene,Cells EBV-transformed lymphocytes  | eQTLs (GTEx)
+Colon_Sigmoid_egene,Colon Sigmoid  | eQTLs (GTEx)
+Colon_Transverse_egene,Colon Transverse  | eQTLs (GTEx)
+Esophagus_Gastroesophageal_Junction_egene,Esophagus Gastroesophageal Junction  | eQTLs (GTEx)
+Esophagus_Mucosa_egene,Esophagus Mucosa  | eQTLs (GTEx)
+Esophagus_Muscularis_egene,Esophagus Muscularis  | eQTLs (GTEx)
+Minor_Salivary_Gland_egene,Salivary Gland  | eQTLs (GTEx)
+Heart_Atrial_Appendage_egene,Heart Atrial Appendage  | eQTLs (GTEx)
+Nerve_Tibial_egene,Nerve Tibial  | eQTLs (GTEx)
+Lung_egene,Lung  | eQTLs (GTEx)
+Pancreas_egene,Pancreas  | eQTLs (GTEx)
+Ovary_egene,Ovary  | eQTLs (GTEx)
+Pituitary_egene,Pituitary  | eQTLs (GTEx)
+Prostate_egene,Prostate  | eQTLs (GTEx)
+Skin_Not_Sun_Exposed_Suprapubic_egene,Skin 2 | eQTLs (GTEx)
+Skin_Sun_Exposed_Lower_leg_egene,Skin 1 | eQTLs (GTEx)
+Small_Intestine_Terminal_Ileum_egene,Small Intestine Terminal Ileum  | eQTLs (GTEx)
+Spleen_egene,Spleen  | eQTLs (GTEx)
+Stomach_egene,Stomach  | eQTLs (GTEx)
+Testis_egene,Testis  | eQTLs (GTEx)
+Thyroid_egene,Thyroid  | eQTLs (GTEx)
+Uterus_egene,Uterus  | eQTLs (GTEx)
+Vagina_egene,Vagina  | eQTLs (GTEx)
+Thyroid_LCV,Thyroid  | Expression variability (donors)
+Testis_LCV,Testis  | Expression variability (donors)
+Heart-AtrialAppendage_LCV,Heart-AtrialAppendage  | Expression variability (donors)
+Heart-LeftVentricle_LCV,Heart-LeftVentricle  | Expression variability (donors)
+Esophagus-Muscularis_LCV,Esophagus-Muscularis  | Expression variability (donors)
+Skin-NotSunExposed(Suprapubic)_LCV,Skin-NotSunExposed(Suprapubic)  | Expression variability (donors)
+Breast-MammaryTissue_LCV,Breast-MammaryTissue  | Expression variability (donors)
+Brain-Cortex_LCV,Brain-Cortex  | Expression variability (donors)
+Artery-Aorta_LCV,Artery-Aorta  | Expression variability (donors)
+Muscle-Skeletal_LCV,Muscle-Skeletal  | Expression variability (donors)
+Nerve-Tibial_LCV,Nerve-Tibial  | Expression variability (donors)
+Liver_LCV,Liver  | Expression variability (donors)
+Brain-Cerebellum_LCV,Brain-Cerebellum  | Expression variability (donors)
+Adipose-Subcutaneous_LCV,Adipose-Subcutaneous  | Expression variability (donors)
+Artery-Tibial_LCV,Artery-Tibial  | Expression variability (donors)
+Esophagus-Mucosa_LCV,Esophagus-Mucosa  | Expression variability (donors)
+Skin-SunExposed(Lowerleg)_LCV,Skin-SunExposed(Lowerleg)  | Expression variability (donors)
+Lung_LCV,Lung  | Expression variability (donors)
+WholeBlood_LCV,WholeBlood  | Expression variability (donors)
+Cerebellum_Development_CV,Cerebellum | Expression variability (time)
+Liver_Development_CV,Liver | Expression variability (time)
+Ovary_Development_CV,Ovary | Expression variability (time)
+Testis_Development_CV,Testis | Expression variability (time)
+Brain_Development_CV,Brain | Expression variability (time)
+Heart_Development_CV,Heart | Expression variability (time)
+Kidney_Development_CV,Kidney | Expression variability (time)
+Exon,CADD | Exon
+PolyPhenCat,CADD | PolyPhenCat
+CDSpos,CADD | Variant location (CDSpos)
+Rare100bp,CADD | Variant frequency (Rare100bp)
+Pos,CADD | Pos
+mirSVR-E,CADD | micro-RNA (mirSVR-E)
+oAA,CADD | oAA
+Dst2SplType,CADD | Splicing (Dst2SplType)
+Sngl100bp,CADD | Variant frequency (Sngl100bp)
+tOverlapMotifs,CADD | TF Binding motif (tOverlapMotifs)
+Dist2Mutation,CADD | Variant frequency (Dist2Mutation)
+Sngl1000bp,CADD | Variant frequency (Sngl1000bp)
+mirSVR-Score,CADD | micro-RNA (mirSVR-Score)
+CCDS,CADD | CCDS
+motifDist,CADD | TF Binding motif (motifDist)
+targetScan,CADD | targetScan
+Ref,CADD | Ref
+dbscSNV-rf_score,CADD | Pathogenic score (dbscSNV-rf score)
+SpliceAI-don-gain,CADD | Splicing (SpliceAI-don-gain)
+mirSVR-Aln,CADD | micro-RNA (mirSVR-Aln)
+relCDSpos,relCADD | Variant location (CDSpos)
+priPhCons,CADD | Conservation (priPhCons)
+SIFTval,CADD | Pathogenic score (SIFTval)
+GeneID_y,CADD | GeneID y
+MMSp_acceptorIntron,CADD | Splicing (MMSp acceptorIntron)
+minDistTSE,CADD | TF Binding motif (minDistTSE)
+ConsScore,CADD | Consequence (ConsScore)
+verPhyloP,CADD | Conservation (verPhyloP)
+SpliceAI-acc-loss,CADD | Splicing (SpliceAI-acc-loss)
+Consequence,CADD | Consequence
+cDNApos,CADD | Variant location (cDNApos)
+MMSp_exon,CADD | Splicing (MMSp exon)
+GC,CADD | GC content (GC)
+PHRED,CADD | Pathogenic score (PHRED)
+CpG,CADD | GC content (CpG)
+Rare1000bp,CADD | Variant frequency (Rare1000bp)
+Length,CADD | Length
+dbscSNV-ada_score,CADD | Pathogenic score (dbscSNV-ada score)
+RawScore,CADD | Pathogenic score (RawScore)
+Dst2Splice,CADD | Splicing (Dst2Splice)
+relProtPos,CADD | Variant location (relProtPos)
+MMSp_donorIntron,CADD | Splicing (MMSp donorIntron)
+SpliceAI-acc-gain,CADD | Splicing (SpliceAI-acc-gain)
+PolyPhenVal,CADD | Pathogenic score (PolyPhenVal)
+motifEName,CADD | TF Binding motif (motifEName)
+Intron,CADD | Intron
+motifEScoreChng,CADD | TF Binding motif (motifEScoreChng)
+relcDNApos,CADD | Variant location (relcDNApos)
+protPos,CADD | Variant location (protPos)
+SIFTcat,CADD | SIFTcat
+priPhyloP,CADD | Conservation (priPhyloP)
+mamPhyloP,CADD | Conservation (mamPhyloP)
+GerpRS,CADD | Conservation (GerpRS)
+GerpS,CADD | Conservation (GerpS)
+#Chr,CADD |Chr
+Freq10000bp,CADD | Variant frequency (Freq10000bp)
+nAA,CADD | nAA
+SpliceAI-don-loss,CADD | Splicing (SpliceAI-don-loss)
+Alt,CADD | Alt
+GerpN,CADD | Conservation (GerpN)
+Sngl10000bp,CADD | Variant frequency (Sngl10000bp)
+verPhCons,CADD | Conservation (verPhCons)
+GerpRSpval,CADD | Conservation (GerpRS)pval
+bStatistic,CADD | bStatistic
+Freq1000bp,CADD | Variant frequency (Freq1000bp)
+Grantham,CADD | Conservation (Grantham)
+AnnoType,CADD | AnnoType
+motifEHIPos,CADD | TF Binding motif (motifEHIPos)
+Freq100bp,CADD | Variant frequency (Freq100bp)
+mamPhCons,CADD | Conservation (mamPhCons)
+motifECount,CADD | TF Binding motif (motifECount)
+Type,CADD | Type
+MMSp_donor,CADD | Splicing (MMSp donor)
+ConsDetail,CADD | ConsDetail
+minDistTSS,CADD | Variant location (minDistTSS)
+Rare10000bp,CADD | Variant frequency (Rare10000bp)
+Domain,CADD | Domain
+MMSp_acceptor,CADD | Splicing (MMSp acceptor)
+Type_DEL,CADD | Type (DEL)
+Type_INS,CADD | Type (INS)
+Type_SNV,CADD | Type (SNV)
+AnnoType_CodingTranscript,CADD | AnnoType (CodingTranscript)
+AnnoType_Intergenic,CADD | AnnoType (Intergenic)
+AnnoType_NonCodingTranscript,CADD | AnnoType (NonCodingTranscript)
+AnnoType_Transcript,CADD | AnnoType (Transcript)
+Consequence_3PRIME_UTR,CADD | Consequence (3PRIMEUTR)
+Consequence_5PRIME_UTR,CADD | Consequence (5PRIMEUTR)
+Consequence_CANONICAL_SPLICE,CADD | Consequence (CANONICALSPLICE)
+Consequence_DOWNSTREAM,CADD | Consequence (DOWNSTREAM)
+Consequence_FRAME_SHIFT,CADD | Consequence (FRAMESHIFT)
+Consequence_INFRAME,CADD | Consequence (INFRAME)
+Consequence_INTRONIC,CADD | Consequence (INTRONIC)
+Consequence_NONCODING_CHANGE,CADD | Consequence (NONCODING CHANGE)
+Consequence_NON_SYNONYMOUS,CADD | Consequence (NONSYNONYMOUS)
+Consequence_SPLICE_SITE,CADD | Consequence (SPLICESITE)
+Consequence_STOP_GAINED,CADD | Consequence (STOPGAINED)
+Consequence_STOP_LOST,CADD | Consequence (STOPLOST)
+Consequence_SYNONYMOUS,CADD | Consequence (SYNONYMOUS)
+Consequence_UPSTREAM,CADD | Consequence (UPSTREAM)
+Domain_hmmpanther,CADD | Domain (hmmpanther)
+Domain_lcompl,CADD | Domain (lcompl)
+Domain_ncoils,CADD | Domain (ncoils)
+Domain_ndomain,CADD | Domain (ndomain)
+Domain_other,CADD | Domain (other)
+Domain_sigp,CADD | Domain (sigp)
+Dst2SplType_ACCEPTOR,CADD | Dst2SplType (ACCEPTOR)
+Dst2SplType_DONOR,CADD | Dst2SplType (DONOR)
