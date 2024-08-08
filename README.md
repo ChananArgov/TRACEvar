@@ -3,7 +3,7 @@
 # TRACEvar
 TRACEvar is a pathogenic variant prioritization tool that uses tissue-specific ML models. Given data of variants and the identity of the tissue affected by the disease, TRACEvar computes a pathogenicity score for each variant in the affected tissue by using GBM. [TRACEvar](https://netbio.bgu.ac.il/tracevar/) is also available online. 
 
-<img src="TRACEvar concept figure MSB.png.jpg" alt="TRACEvar concept figure">
+<img src="TRACEvar MSB.png" alt="TRACEvar concept figure">
 
 
 # Dataset
