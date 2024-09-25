@@ -98,9 +98,7 @@ Previous version exists in the 'Analysis scripts' folder.
 
 
 # Cite
-Please cite 'Tissue-aware interpretation of genetic variants advances the etiology of rare diseases. Argov et al, Mol Syst Biol
-(2024)'
-https://www.embopress.org/doi/full/10.1038/s44320-024-00061-6
+Please cite Argov CM et al, 'Tissue-aware interpretation of genetic variants advances the etiology of rare diseases', Mol Syst Biol 2024, doi: 10.1038/s44320-024-00061-6 
 
 # Contact
 Esti Yeger-Lotem, estiyl@bgu.ac.il
